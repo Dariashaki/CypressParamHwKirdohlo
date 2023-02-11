@@ -23,6 +23,7 @@ describe('Parametrized tests', () => {
 
         it(`enter data`, paramTest({ testData1: 'dariyakirdoglo@gmail.com', expectedResult1: 'dariyakirdoglo@gmail.com', testData2: 'A123456_a', expectedResult2: 'A123456_a' }));
 
+        it(`enter data2`, paramTest({ testData1: 'd.kirdoglo@gmail.com', expectedResult1: 'd.kirdoglo@gmail.com', testData2: 'B123456_b', expectedResult2: 'B123456_b' }));
     })
 
 })
